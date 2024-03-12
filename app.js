@@ -1,6 +1,9 @@
-const _ = require('lodash');
-
-const list = [1, 2, [3], [[4, 5], 6]];
-const updateList = _.flattenDeep(list);
-
-console.log(updateList);
+function Person(name) {
+    this.name = name;
+  }
+  
+  // Creating a new instance of Person
+  var person1 = new Person('Alice');
+// console.log(person1.name); // Output: Alice
+  
+console.log(person1)
